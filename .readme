@@ -1,0 +1,29 @@
+# 💰 Expense Tracker Mini-Project
+
+A lightweight, front-end web application built to track daily expenses, monitor credit card usage, and manage a budget. All data is saved directly to the browser's Local Storage, meaning the data persists even after refreshing the page without needing a backend server.
+
+## ✨ Features
+* **Add Expenses:** Log transactions with a date, amount, category, and payment type.
+* **Real-Time Calculations:** Automatically updates Total Expenses, Remaining Balance (from a ₹50,000 baseline), and Total Credit card usage.
+* **Visual Alerts:** Features a custom CSS "traffic light" blinking animation that triggers when the balance drops below ₹1,000 or expenses exceed ₹50,000.
+* **Data Persistence:** Uses the `localStorage` API to save and retrieve expense data instantly.
+* **Interactive UI:** Clean layout with a toggleable modal form for adding new entries.
+
+## 📸 Screenshots
+
+*(Note: Create an `images` folder in your repository, upload your screenshots there, and the images will render below.)*
+
+### Main Dashboard
+![Main Dashboard displaying the expense table and total cards](./assets/dashboard.png)
+
+### Add Expense Form
+![Popup form to add a new expense](./assets/addExpForm.png)
+
+### Low Balance Alert
+![Traffic light blinking effect on the balance card](images/warning-alert.png)
+
+## 🛠️ Technologies Used
+* **HTML5** for semantic structure.
+* **CSS3** for styling, layout, and `@keyframes` animations.
+* **Vanilla JavaScript** for DOM manipulation and logic.
+* **Web Storage API (Local Storage)** for database-free data persistence.
